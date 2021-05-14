@@ -1,0 +1,7 @@
+
+node_modules/
+# Los puedo reconstruir ejecutando npm install
+
+salida/*.txt
+
+
