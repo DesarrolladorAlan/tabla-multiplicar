@@ -15,7 +15,7 @@ const argv = require('yargs')
         alias: 'hasta',
         type: 'number',
         default: 10,
-        describe: 'El número hasta dodne quieres la tabla'
+        describe: 'El número hasta donde quieres la tabla'
     })
     .check((argv, options) => {
         if (isNaN(argv.b)) {
